@@ -10,5 +10,3 @@
 Message.destroy_all
 Chat.destroy_all
 User.destroy_all
-User.create(name: "ujjwal", email: "ujjwal@chat.com", password: "Ujjwal1502")
-User.create(name: "sheefa", email: "sheefa@chat.com", password: "Sheefa1502")
