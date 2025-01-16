@@ -11,9 +11,9 @@ Rails.application.configure do
   # Eager load code on boot for better performance and memory savings (ignored by Rake tasks).
   config.eager_load = true
 
-  config.action_cable.url = "wss://chat-app-backend-7afk.onrender.com/cable"
+  config.action_cable.url = "wss://https://chat-app-be-gltx.onrender.com/cable"
   # Allow ActionCable requests from the frontend
-  config.action_cable.allowed_request_origins = [ "https://chat-app-frontend-ockn.onrender.com" ]
+  config.action_cable.allowed_request_origins = [ "https://chat-app-fe-bpmr.onrender.com" ]
   config.action_cable.disable_request_forgery_protection = true
   # Full error reports are disabled.
   config.consider_all_requests_local = false
