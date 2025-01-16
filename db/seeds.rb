@@ -7,8 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-User.destroy_all
-Chat.destroy_all
 Message.destroy_all
+Chat.destroy_all
+User.destroy_all
 User.create(name: "ujjwal", email: "ujjwal@chat.com", password: "Ujjwal1502")
 User.create(name: "sheefa", email: "sheefa@chat.com", password: "Sheefa1502")
