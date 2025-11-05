@@ -81,16 +81,16 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    database: chat_app_tq39
-    username: chat_app_tq39_user
-    password: sxQO3D7DGIzq5iiwpB6PQ9SDvRoRPT2m
-    host: dpg-cu3noprtq21c73ap081g-a
+    database: chat_app_kj03
+    username: chat_app_kj03_user
+    password: YGqagl41YMRdYWc1fc3zwcMTlPp0ByR3
+    host: dpg-d45km6adbo4c73fvsv80-a
   cache:
     <<: *primary_production
-    database: chat_app_tq39_cache
+    database: chat_app_kj03_cache
     migrations_paths: db/cache_migrate
   queue:
     <<: *primary_production
-    database: chat_app_tq39_queue
+    database: chat_app_kj03_queue
     migrations_paths: db/queue_migrate
 
